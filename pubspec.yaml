@@ -11,8 +11,6 @@ topics:
   - customization
   - app-icon
   - dynamic
-  - flutter
-  - plugin
 
 environment:
   sdk: ^3.5.4
