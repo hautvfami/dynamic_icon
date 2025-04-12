@@ -1,5 +1,9 @@
 # Dynamic Icon
 
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*yW2XJOV3WbLN1ufOzZQVlQ.png" alt="Dynamic Icon" width="600"/>
+</p>
+
 [![pub package](https://img.shields.io/pub/v/dynamic_icon.svg)](https://pub.dev/packages/dynamic_icon)
 
 A Flutter plugin that allows changing your app's icon dynamically on iOS and Android.
@@ -363,4 +367,10 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Author
+
+- **Name:** HauTV
+- **Google Play Store:** [Developer Profile](https://play.google.com/store/apps/dev?id=5934859685596356830)
+- **LinkedIn:** [https://www.linkedin.com/in/hautv/](https://www.linkedin.com/in/hautv/)
 
