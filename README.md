@@ -47,7 +47,7 @@ dependencies:
    - Change the setting to "Yes"
 
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*bNWtT-NoJzEnGzXONyC8aQ.png" alt="Include All App Icon Assets" width="600"/>
+  <img src="https://github.com/hautvfami/dynamic_icon/blob/main/example/captures/image.png?raw=true" alt="Include All App Icon Assets" width="600"/>
 </p>
 
 ### Android Setup
