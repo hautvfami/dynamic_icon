@@ -13,4 +13,8 @@ class DynamicIcon {
   Future<List<String>?> getAvailableIcons() {
     return DynamicIconPlatform.instance.getAvailableIcons();
   }
+
+  Future<void> reset() {
+    return DynamicIconPlatform.instance.reset();
+  }
 }

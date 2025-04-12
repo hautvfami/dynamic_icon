@@ -23,7 +23,7 @@ abstract class DynamicIconPlatform extends PlatformInterface {
     _instance = instance;
   }
 
-  Future<String?> getPlatformVersion() {
+  Future<void> reset() {
     throw UnimplementedError('platformVersion() has not been implemented.');
   }
 

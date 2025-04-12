@@ -45,41 +45,29 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
-
-	<!-- iOS 9.0+ -->
 	<key>CFBundleIcons</key>
-    <dict>
-      <key>CFBundlePrimaryIcon</key>
-      <dict>
-        <key>CFBundleIconFiles</key>
-        <array>
-          <string>AppIcon</string>
-        </array>
-        <key>UIPrerenderedIcon</key>
-        <false/>
-      </dict>
-      <key>CFBundleAlternateIcons</key>
-      <dict>
-        <key>Festival</key>
-        <dict>
-          <key>CFBundleIconFiles</key>
-          <array>
-            <string>AppIconFestival</string>
-          </array>
-          <key>UIPrerenderedIcon</key>
-          <false/>
-        </dict>
-        <key>Winter</key>
-        <dict>
-          <key>CFBundleIconFiles</key>
-          <array>
-            <string>AppIconWinter</string>
-          </array>
-          <key>UIPrerenderedIcon</key>
-          <false/>
-        </dict>
-      </dict>
-    </dict>
-
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon</string>
+			</array>
+			<key>UIPrerenderedIcon</key>
+			<false/>
+		</dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>Festival</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Festival</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

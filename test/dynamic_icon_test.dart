@@ -28,6 +28,12 @@ class MockDynamicIconPlatform
     // TODO: implement getCurrentIcon
     throw UnimplementedError();
   }
+
+  @override
+  Future<void> reset() {
+    // TODO: implement reset
+    throw UnimplementedError();
+  }
 }
 
 void main() {

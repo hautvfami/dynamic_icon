@@ -10,9 +10,8 @@ class MethodChannelDynamicIcon extends DynamicIconPlatform {
   final methodChannel = const MethodChannel('dynamic_icon');
 
   @override
-  Future<String?> getPlatformVersion() async {
-    final version = await methodChannel.invokeMethod<String>('getPlatformVersion');
-    return version;
+  Future<void> reset() async {
+    await methodChannel.invokeMethod('changeIcon', {'iconName': '.'});
   }
 
   @override
@@ -40,7 +39,7 @@ class MethodChannelDynamicIcon extends DynamicIconPlatform {
     try {
       final icons = await methodChannel.invokeMethod<List>('getAvailableIcons');
       print('Available icons: ${icons}');
-      return icons?.map((e)=> e.toString()).toList();
+      return icons?.map((e)=> e.toString()).toList().where((e)=>e !="MainActivity").toList();
     } on PlatformException catch (e) {
       debugPrint('Failed to get available icons: ${e.message}');
       return null;

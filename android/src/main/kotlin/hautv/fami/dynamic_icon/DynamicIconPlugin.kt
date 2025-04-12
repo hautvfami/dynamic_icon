@@ -51,7 +51,7 @@ class DynamicIconPlugin : FlutterPlugin, MethodCallHandler {
                 PackageManager.GET_ACTIVITIES or PackageManager.GET_DISABLED_COMPONENTS
             )
             for (activity in packageInfo.activities) {
-                if (activity.name.startsWith("$pkg.MainAlias")) {
+                if (activity.name.startsWith("$pkg.")) {
                     aliases.add(activity.name.removePrefix("$pkg."))
                 }
             }
