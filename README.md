@@ -40,34 +40,15 @@ dependencies:
    - Drag and drop your icon images into the appropriate slots for different device sizes
    - Repeat for each alternative icon you want to use
 
-4. Update your `Info.plist` file with the alternative icons:
+4. Enable alternative icons in build settings:
+   - In Xcode, select your project in the Project Navigator
+   - Select your target and go to the "Build Settings" tab
+   - Search for "Include All App Icon Assets"
+   - Change the setting to "Yes"
 
-```xml
-<key>CFBundleIcons</key>
-<dict>
-    <key>CFBundleAlternateIcons</key>
-    <dict>
-        <key>icon_name_1</key>
-        <dict>
-            <key>CFBundleIconFiles</key>
-            <array>
-                <string>icon_name_1</string>
-            </array>
-            <key>UIPrerenderedIcon</key>
-            <false/>
-        </dict>
-        <key>icon_name_2</key>
-        <dict>
-            <key>CFBundleIconFiles</key>
-            <array>
-                <string>icon_name_2</string>
-            </array>
-            <key>UIPrerenderedIcon</key>
-            <false/>
-        </dict>
-    </dict>
-</dict>
-```
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*bNWtT-NoJzEnGzXONyC8aQ.png" alt="Include All App Icon Assets" width="600"/>
+</p>
 
 ### Android Setup
 
