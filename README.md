@@ -353,5 +353,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - **Name:** HauTV
 - **Google Play Store:** [Developer Profile](https://play.google.com/store/apps/dev?id=5934859685596356830)
+- **Drinking Game App:** [https://drinking-game.web.app/](https://drinking-game.web.app/)
 - **LinkedIn:** [https://www.linkedin.com/in/hautv/](https://www.linkedin.com/in/hautv/)
 
